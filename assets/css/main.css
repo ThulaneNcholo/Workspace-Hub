@@ -1,0 +1,115 @@
+/* Colors */
+:root {
+  --primary-color: linear-gradient(90deg, #7d02b6, #ef2793);
+  --background-color: #121114;
+  --secondary-color: #4a4685;
+  --secondary-background: #f5f5f7;
+  --text-color: #f2f1f3;
+  --secondary-text: #bfbac4;
+  --cameo-color: #6d2ebf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bottom_spacing {
+  height: 30px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* navbar style  */
+.navbar_container {
+  background-color: transparent !important;
+}
+
+/******* Index Page Styling start  ******/
+.hero_title {
+  color: white;
+  font-weight: bold;
+  font-size: 160px;
+}
+
+.hero_subtitle {
+  color: white;
+}
+
+/* About styling  */
+.about_images {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* Team Size styling  */
+.team_size_container {
+  background-color: black;
+}
+
+.team_sub {
+  color: var(--text-color);
+}
+
+.team_title {
+  color: white;
+}
+
+.teamPoints_card {
+  background-color: rgba(255, 255, 255, 0.989);
+  border-radius: 12px;
+}
+
+/* reviews style  */
+.review_card {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.review_icon {
+  font-size: 40px;
+}
+
+.review_p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Banner 1 style  */
+
+/* why us style  */
+.us_image {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Office Space style  */
+.office_card {
+  background-color: white;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.space_icon {
+  font-size: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up)  */
+@media (max-width: 576px) {
+  .hero_title {
+    font-size: 50px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+  .hero_title {
+    font-size: 100px;
+  }
+}
